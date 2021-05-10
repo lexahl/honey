@@ -1,0 +1,100 @@
+baseURL = "/"
+disqusShortname = "sicily-hugo-theme"
+googleAnalytics = ""
+languageCode = "en-us"
+languageName = "En"
+paginate = "10"
+summaryLength = "15"
+theme = "Sicily-hugo-theme"
+title = "Honey, I'm Online!"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[[menu.company]]
+URL = "blog/landingpagepackage/"
+name = "Landing Page Package"
+weight = 1
+
+[[menu.company]]
+URL = "blog/customwebsite/"
+name = "Custom Websites"
+
+[[menu.company]]
+URL = "blog/digitalmenu/"
+name = "Digital Menus"
+
+
+[[menu.main]]
+URL = "/"
+name = "HOME"
+weight = 1
+
+[[menu.main]]
+URL = "blog"
+name = "SERVICES"
+weight = 2
+
+
+[[menu.main]]
+URL = "contact"
+name = "CONTACT"
+weight = 3
+
+[[menu.main]]
+URL = "faq"
+name = "FAQ"
+weight = 4
+
+
+
+[[menu.product]]
+URL = "faq"
+name = "FAQ"
+[[menu.product]]
+URL = "privacy-policy"
+name = "Privacy Policy"
+
+
+
+[params]
+author = "honey"
+contact_form_action = "#"
+description = "honey I'm online"
+logo = "images/logo.png"
+logo_width = "200px"
+
+
+[params.company]
+country = "CONTACT"
+email = "contact@honeyimonline.com"
+
+[params.navigation_button]
+enable = true
+label = "CONTACT"
+link = "contact"
+
+
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/custom/clean-footer.css"
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+
+
+[params.preloader]
+enable = false
+preloader = ""
+
+
+
+
