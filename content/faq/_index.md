@@ -14,6 +14,6 @@ Having a good and professional website instantly boosts your credibility as a le
 
 
 
-{{< faq "Will I be able to update my website if any detail about my business changes?" >}}
+{{< faq "Will I be able to update my website if any details about my business changes?" >}}
 Yes! 
 {{</ faq >}}
