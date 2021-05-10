@@ -1,0 +1,100 @@
+/* Button style */
+.btn {
+  font-size: 16px;
+  font-family: $primary-font;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: 0;
+  position: relative;
+  z-index: 1;
+  transition: .2s ease;
+  white-space: nowrap;
+
+  &::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    border-radius: inherit;
+    transition: inherit;
+    background-color: #F9A826;
+    border: 1px solid transparent;
+  }
+
+  &:hover,
+  &:active,
+  &:focus {
+    outline: 0;
+    @extend .shadow;
+
+    &::before {
+      height: 110%;
+      width: 110%;
+    }
+  }
+
+  &-sm {
+    padding: 12px 30px;
+    font-size: 15px;
+  }
+}
+
+.btn-primary {
+  background-color: #F9A826;
+  color: $white;
+  border-color: #F9A826;
+
+  &:active,
+  &:hover,
+  &.focus,
+  &.active {
+    background-color: #FFFFFF !important;
+    border-color: #F9A826 !important;
+  }
+}
+
+.btn-outline-primary {
+  background-color: transparent;
+  color: #FFFFFF;
+  border-color: transparent;
+
+  &:active,
+  &:hover,
+  &.focus,
+  &.active {
+    background-color: transparent !important;
+    border-color: #F9A826 !important;
+    color: #FFFFFF;
+  }
+  &::before{
+    border-color: #F9A826;
+  }
+}
+
+.btn-link {
+  color: #F9A826;
+
+  i {
+    font-size: 12px;
+    margin-left: 5px;
+    transition: .2s ease;
+  }
+
+  &:active,
+  &:hover,
+  &.focus,
+  &.active {
+    color: #F9A826;
+    text-decoration: none;
+
+    i {
+      margin-left: 10px;
+    }
+  }
+}
