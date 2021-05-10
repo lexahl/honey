@@ -6,6 +6,17 @@ paginate = "10"
 summaryLength = "15"
 title = "Honey, I'm Online!"
 
+DefaultContentLanguage = "en"
+[languages]
+  [languages.en]
+    title = "Honey, I'm Online!"
+    languageName = "English"
+    weight = 1
+  [languages.es]
+    title = "Honey, I'm Online!"
+    languageName = "Spanish"
+    weight = 2
+
 [markup.goldmark.renderer]
 unsafe = true
 

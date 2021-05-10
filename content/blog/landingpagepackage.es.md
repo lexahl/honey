@@ -15,7 +15,6 @@ The Landing Page Packing is the best way to get your business online. The base o
 
 ### the basic package:
 
-- the design of a landing page.
 - a custom domain (URL) for your website.
 - 2 custom emails for your business.
 - secure webhosting.
