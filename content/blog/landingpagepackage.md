@@ -11,7 +11,7 @@ description: "static landing page creation"
 draft: false
 ---
  
-The Landing Page Packing is the best way to get your business online. The base of your online presence is the website and a landing page is the most efficient way to get all of your business' important information across. First impressions matter, as the user needs to know they’ve come to the right place, see the key messages being delivered and understand them, be able to find important details and information, and much more.
+The Landing Page Package is the best way to get your business online. The base of your online presence is the website and a landing page is the most efficient way to get all of your business' important information across. First impressions matter, as the user needs to know they’ve come to the right place, see the key messages being delivered and understand them, be able to find important details and information, and much more.
 
 ### the basic package:
 
